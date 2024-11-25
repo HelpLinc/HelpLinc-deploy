@@ -106,7 +106,7 @@ const faqData: FAQCategory[] = [
   },
 ];
 
-const FAQ: React.FC = () => {
+const FrequentlyAskedQuestions: React.FC = () => {
   const [activeIndex, setActiveIndex] = useState<number | null>(null);
 
   const toggleAccordion = (index: number) => {
@@ -114,6 +114,7 @@ const FAQ: React.FC = () => {
   };
 
   return (
+    <div>
     <div>
         <Header />
     <div className="faq-container bg-gray-100 py-16">
@@ -143,7 +144,8 @@ const FAQ: React.FC = () => {
     </div>
     <Footer />
     </div>
+    </div>
   );
 };
 
-export default FAQ;
+export default FrequentlyAskedQuestions;

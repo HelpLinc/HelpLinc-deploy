@@ -43,7 +43,7 @@ const Header: React.FC = () => {
           <li><Link to="/services" className="hover:text-gray-300">Services</Link></li>
           <li><Link to="/about" className="hover:text-gray-300">About</Link></li>
           <li><Link to="/contact" className="hover:text-gray-300">Contact</Link></li>
-          <li><a href="./FAQ" className="hover:text-gray-300">FAQ</a></li>
+          <li><Link to="/frequently-asked-questions" className="hover:text-gray-300">FAQ</Link></li>
         </ul>
       </nav>
     </header>
