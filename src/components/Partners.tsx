@@ -7,7 +7,7 @@ const PartnersSlider = () => {
       
       {/* Scrolling container */}
       <div className="relative overflow-x-hidden">
-        <div className="flex items-center justify-center space-x-8 animate-scroll">
+        <div className="flex flex-wrap items-center p-4 justify-center space-x-8 animate-scroll">
           {/* Partner images */}
           <img src="/Faisal.PNG" alt="Partner 1" className="w-20 h-20 object-contain" />
           <img src="/holberton-logo.PNG" alt="Partner 2" className="w-20 h-20 object-contain" />
