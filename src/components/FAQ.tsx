@@ -25,7 +25,7 @@ const faqData: FAQCategory[] = [
         answer: 'Signing up is simple. Just click on the “Sign Up” button at the top of our homepage, enter your details, and follow the prompts to create your account.',
       },
       {
-        question: 'Is Helplink free to use?',
+        question: 'Is Helplinc free to use?',
         answer: 'Yes, Helplink is free for patients. You can search for providers, and use our platform without any cost. Some services, such as book appointments, may have associated fees depending on the provider.',
       },
     ],

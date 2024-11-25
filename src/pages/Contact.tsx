@@ -148,7 +148,7 @@ const ContactForm: React.FC = () => {
         
         </div>
         <div className="flex-1 bg-white p-8 rounded-lg shadow-lg flex flex-col justify-center items-center">
-                <img src="/Contact.PNG" alt="Helplink" className="w-[800px] h-[450px] rounded-lg" />
+                <img src="/Contact.PNG" alt="Helplink" className="w-[80%] h-auto rounded-lg" />
             </div>
         <Footer />
         </div>
