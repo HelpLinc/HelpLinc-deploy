@@ -41,13 +41,13 @@ const Footer: React.FC = () => {
               <a href="https://www.facebook.com/profile.php?id=61560873492622&rdid=C0oVIAxa708B0bVH#" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white">
                 <FaFacebook size={24} />
               </a>
-              <a href="https://x.com/helplinc1/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white">
+              <a href="https://x.com/helplinc1/" target="_blank" className="text-gray-400 hover:text-white">
                 <FaTwitter size={24} />
               </a>
-              <a href="https://www.instagram.com/help.linc/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white">
+              <a href="https://www.instagram.com/help.linc/" target="_blank" className="text-gray-400 hover:text-white">
                 <FaInstagram size={24} />
               </a>
-              <a href="https://www.linkedin.com/in/helplinc/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white">
+              <a href="https://www.linkedin.com/in/helplinc/" target="_blank" className="text-gray-400 hover:text-white">
                 <FaLinkedin size={24} />
               </a>
             </div>
@@ -57,7 +57,7 @@ const Footer: React.FC = () => {
         {/* Newsletter Section */}
         <div className="mt-8 border-t border-gray-700 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
-            <p className="text-gray-400">© 2023 HelpLink. All rights reserved.</p>
+            <p className="text-gray-400">© 2024 HelpLink. All rights reserved.</p>
             <div className="mt-4 md:mt-0">
               <input
                 type="email"
