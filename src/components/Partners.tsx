@@ -8,13 +8,14 @@ const PartnersSlider = () => {
       {/* Scrolling container */}
       <div className="relative overflow-x-hidden">
         <div className="flex flex-wrap items-center p-4 justify-center space-x-8 animate-scroll">
-          {/* Partner images */}
-          <img src="/Faisal.PNG" alt="Partner 1" className="w-20 h-20 object-contain" />
-          <img src="/holberton-logo.PNG" alt="Partner 2" className="w-20 h-20 object-contain" />
+          <img src="/SandLogo.jpg" alt="Partner 1" className="w-[100px] h-[100px] object-contain" />
+          <img src="/ALXLogo.jpg" alt="Partner 2" className="w-[100px] h-[100px] object-contain" />
+          {/* Partner images 
           <img src="/HelpLogo.webp" alt="Partner 3" className="w-20 h-20 object-contain" />
           <img src="/tool.png" alt="Partner 4" className="w-20 h-20 object-contain" />
           <img src="/partner4.JPG" alt="Partner 5" className="w-20 h-20 object-contain" />
           <img src="/vite.svg" alt="Partner 5" className="w-20 h-20 object-contain" />
+          */}
         </div>
       </div>
     </div>
