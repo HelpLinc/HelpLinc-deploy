@@ -8,6 +8,7 @@ import GetStartedPage from './pages/GetStarted';
 import Login from './components/UserAuthentication/Login';
 import Register from './components/UserAuthentication/UserRegister';
 import UserDashboard from './pages/UserDashboard';
+import SearchInterface from './components/SearchInterface';
 
 function App() {
 
@@ -24,6 +25,7 @@ function App() {
         <Route path='/user-register' element={<Register /> } />
         <Route path='/login' element={<Login />} />
         <Route path='/user-dashboard' element={<UserDashboard />} />
+        <Route  path='/search' element={<SearchInterface />} />
         </Routes>
     </Router>
   )

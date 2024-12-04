@@ -44,6 +44,25 @@ const Header: React.FC = () => {
           <li><Link to="/about" className="hover:text-gray-300">About</Link></li>
           <li><Link to="/contact" className="hover:text-gray-300">Contact</Link></li>
           <li><Link to="/frequently-asked-questions" className="hover:text-gray-300">FAQ</Link></li>
+          <li>
+              <Link to="/search" className="hover:text-gray-300 flex items-center">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-5 w-5 mr-2"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  strokeWidth={2}
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M11 19a8 8 0 100-16 8 8 0 000 16zM21 21l-4.35-4.35"
+                  />
+                </svg>
+                Search
+              </Link>
+          </li>
         </ul>
       </nav>
     </header>
